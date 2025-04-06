@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest",
     "format": "prettier --write ."
   },
   "dependencies": {
@@ -32,5 +31,10 @@
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
     "prettier": "^2.8.0"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
 }
